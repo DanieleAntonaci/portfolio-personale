@@ -1,6 +1,8 @@
 <script>
-export default {
+import HamburgerMenu from './HamburgerMenu.vue';
 
+export default {
+    components: { HamburgerMenu }
 }
 </script>
 
@@ -9,10 +11,7 @@ export default {
         <h1>
             Header
         </h1>
-        <button class="bars">
-            <font-awesome-icon  icon="fa-solid fa-bars" />
-
-        </button>
+        <HamburgerMenu class="bars"/>
         <ul>
             <li>
                 menu
@@ -29,6 +28,7 @@ export default {
     border-bottom: .5px solid rgb(106, 106, 106);
     background-color: rgb(41, 41, 41);
     padding: 10px;
+    height: 60px;
 
     position: sticky;
     top: 0;
