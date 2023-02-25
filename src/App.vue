@@ -12,10 +12,12 @@ export default {
 </script>
 
 <template>
-  <div>
-    <Header/>
-    <Main/>
-    <Footer/>
+  <div id="container">
+
+      <Header/>
+      <Main/>
+      <Footer/>
+
   </div>
 </template>
 
@@ -23,4 +25,12 @@ export default {
 @use './style/general.scss' as *;
 @use './style/partials/mixin' as *;
 @use './style/partials/variables' as *;
+
+#container {
+  background-color: rgb(41, 41, 41);
+  height: 100%;
+  color: white;
+
+
+}
 </style>

@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div>
+    <div class="container">
         <h1>
             Footer
         </h1>
@@ -15,4 +15,8 @@ export default {
 <style scoped lang="scss">
 @use '../style/partials/mixin' as *;
 @use '../style/partials/variables' as *;
+
+.container {
+    border-top: .5px solid rgb(106, 106, 106);
+}
 </style>
