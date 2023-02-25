@@ -28,8 +28,10 @@ export default {
 
 #container {
   background-color: rgb(41, 41, 41);
-  height: 100%;
+  height: 100vh;
+  overflow-y: auto;
   color: white;
+
 
 
 }
