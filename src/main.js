@@ -9,9 +9,14 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faBars, faXmark)
+library.add(
+    faBars,
+    faXmark,
+    faGithub
+)
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)
