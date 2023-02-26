@@ -9,10 +9,10 @@ export default {
 </script>
 
 <template>
-    <main class="container">
+    <main class="container" >
         <Heroes/>
-        <AboutMe/>
         <Projects/>
+        <AboutMe/>
     </main>
 </template>
 

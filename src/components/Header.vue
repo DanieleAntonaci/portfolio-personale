@@ -27,8 +27,13 @@ export default {
                     link: '#'
 
                 },
-            ]
+            ],
+
+
         }
+    },
+    methods: {
+
     },
 }
 </script>
@@ -51,10 +56,10 @@ export default {
 @use '../style/partials/mixin' as *;
 @use '../style/partials/variables' as *;
 
+
+
 .container {
-
-
-
+    // background-color: black;
     height: 60px;
 
     position: sticky;

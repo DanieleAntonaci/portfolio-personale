@@ -1,4 +1,5 @@
 <script>
+
 export default {
     props: {
         menuArray: Array,
@@ -9,7 +10,9 @@ export default {
 
         }
     },
+
 }
+
 </script>
 
 <template>

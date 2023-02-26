@@ -6,7 +6,7 @@ export default {
 
 <template>
     <section>
-        About me
+        
     </section>
 </template>
 

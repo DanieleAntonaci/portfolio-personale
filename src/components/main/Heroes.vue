@@ -1,17 +1,22 @@
 <script>
 export default {
+    data() {
+        return {
+
+        }
+    },
 
 }
 </script>
 
 <template>
-    <section class="heroes">
+    <section class="heroes" >
         <div>
             <img src="vite.svg" alt="">
         </div>
         <div>
             <h3>Hello i'm Daniele</h3>
-            <h1>Full stack developer</h1>
+            <h1>Full Stack Web Developer</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deleniti consequatur inventore amet vitae iure esse aliquam sint. Saepe repellendus, molestiae reiciendis natus repudiandae sequi voluptates suscipit officiis dolor facere.</p>
             <a class="btn-about-me" href="#">Aboout me</a>
         </div>
@@ -22,9 +27,13 @@ export default {
 @use '../../style/partials/mixin' as *;
 @use '../../style/partials/variables' as *;
 
+
+
 .heroes {
     display: flex;
     flex-direction: column;
+
+    padding: 40px 0;
 
 
     &>div {
@@ -51,10 +60,6 @@ export default {
         h1 {
             font-size: 40px;
             margin-bottom: 20px;
-
-            // background: -webkit-linear-gradient(110deg, rgb(255, 25, 0) 30%, rgb(248, 194, 0));
-            // -webkit-background-clip: text;
-            // -webkit-text-fill-color: transparent;
 
         }
 

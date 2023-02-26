@@ -15,9 +15,13 @@ export default {
   <div id="container">
 
       <Header/>
-      <Main/>
-      <Footer/>
 
+      <div>
+
+        <Main/>
+        <Footer/>
+        
+      </div>
   </div>
 </template>
 
@@ -30,5 +34,10 @@ export default {
   max-width: 1700px;
   margin: 0 auto;
   color: white;
+
+  &>div {
+    height: calc(100vh - 60px);
+    overflow: auto;
+  }
 }
 </style>
