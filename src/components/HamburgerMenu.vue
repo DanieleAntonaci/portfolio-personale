@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <div class="bars">
+    <nav class="bars">
 
         <button @click="menuShow = !menuShow">
             <font-awesome-icon icon="fa-solid fa-xmark" v-if="menuShow"/>
@@ -28,7 +28,7 @@ export default {
                 <a :href="menuElem.link">{{ menuElem.title }}</a>
             </li>
         </ul>
-    </div>
+    </nav>
 </template>
 
 <style scoped lang="scss">
