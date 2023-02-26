@@ -1,5 +1,8 @@
 <script>
 export default {
+    props: {
+        menuArray: Array,
+    },
     data() {
         return {
             menuShow: false,
@@ -10,15 +13,18 @@ export default {
 </script>
 
 <template>
-    <button @click="menuShow = !menuShow">
-        <font-awesome-icon  icon="fa-solid fa-bars" />
+    <div class="bars">
 
-    </button>
-    <ul v-if="menuShow" class="sideMenu">
-        <li>
-            menu
-        </li>
-    </ul>
+        <button @click="menuShow = !menuShow">
+            <font-awesome-icon  icon="fa-solid fa-bars" />
+            
+        </button>
+        <ul v-show="menuShow" class="sideMenu">
+            <li v-for="(menuElem, indexMenu) in menuArray" :key="indexMenu">
+                <a :href="menuElem.link">{{ menuElem.title }}</a>
+            </li>
+        </ul>
+    </div>
 </template>
 
 <style scoped lang="scss">
@@ -33,5 +39,13 @@ export default {
     z-index: 800;
     height: calc(100vh - 60px);
     width: 90%;
+}
+
+@media (min-width: 700px) {
+    .bars {
+        display: none;
+    }
+
+
 }
 </style>

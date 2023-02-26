@@ -2,7 +2,34 @@
 import HamburgerMenu from './HamburgerMenu.vue';
 
 export default {
-    components: { HamburgerMenu }
+    components: { HamburgerMenu },
+
+    data() {
+        return {
+            headerMenu: [
+                {
+                    title: 'MENU',
+                    link: '#'
+
+                },
+                {
+                    title: 'ABOUT ME',
+                    link: '#'
+
+                },
+                {
+                    title: 'MY PROYECT',
+                    link: '#'
+
+                },
+                {
+                    title: 'MENU',
+                    link: '#'
+
+                },
+            ]
+        }
+    },
 }
 </script>
 
@@ -11,10 +38,10 @@ export default {
         <h1>
             Header
         </h1>
-        <HamburgerMenu class="bars"/>
-        <ul>
-            <li>
-                menu
+        <HamburgerMenu class="bars" :menuArray='headerMenu'/>
+        <ul class="extendedMenu">
+            <li v-for="(menuElem, indexMenu) in headerMenu" :key="indexMenu">
+                <a :href="menuElem.link">{{ menuElem.title }}</a>
             </li>
         </ul>
     </div>
@@ -38,18 +65,18 @@ export default {
     justify-content: space-between;
     align-items: center;
 
-    ul {
+    .extendedMenu {
         display: none;
     }
 
     @media (min-width: 700px) {
-        .bars {
-            display: none;
-        }
 
-        ul {
-            display: inline;
+        .extendedMenu {
+            display: flex;
 
+            li {
+                margin-left: 10px;
+            }
         }
 
     }
