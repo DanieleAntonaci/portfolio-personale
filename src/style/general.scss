@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: "Roboto", sans-serif;
+}
 a {
     text-decoration: none;
     color: white;
@@ -12,8 +15,14 @@ li {
     list-style-type: none;
 }
 #app {
-    background-color: rgb(41, 41, 41);
-    // background-color: black;
+    background: linear-gradient(
+        220deg,
+        rgb(60, 60, 60),
+        rgb(24, 24, 24),
+        rgb(13, 13, 13),
+        black,
+        black
+    ); // background-color: black;
     height: 100vh;
     overflow-y: auto;
 }

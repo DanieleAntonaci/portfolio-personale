@@ -5,11 +5,11 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <footer class="container">
         <h1>
             Footer
         </h1>
-    </div>
+    </footer>
 </template>
 
 <style scoped lang="scss">

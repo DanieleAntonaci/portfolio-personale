@@ -34,7 +34,7 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <header class="container">
         <h1>
             Header
         </h1>
@@ -44,7 +44,7 @@ export default {
                 <a :href="menuElem.link">{{ menuElem.title }}</a>
             </li>
         </ul>
-    </div>
+    </header>
 </template>
 
 <style scoped lang="scss">
@@ -52,8 +52,8 @@ export default {
 @use '../style/partials/variables' as *;
 
 .container {
-    border-bottom: .5px solid rgb(106, 106, 106);
-    background-color: rgb(41, 41, 41);
+
+
 
     height: 60px;
 
