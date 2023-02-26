@@ -16,7 +16,8 @@ export default {
     <div class="bars">
 
         <button @click="menuShow = !menuShow">
-            <font-awesome-icon  icon="fa-solid fa-bars" />
+            <font-awesome-icon icon="fa-solid fa-xmark" v-if="menuShow"/>
+            <font-awesome-icon icon="fa-solid fa-bars" v-else/>
             
         </button>
         <ul v-show="menuShow" class="sideMenu">
@@ -31,14 +32,20 @@ export default {
 @use '../style/partials/mixin' as *;
 @use '../style/partials/variables' as *;
 
-.sideMenu {
-    position: absolute;
-    right: 0;
-    top: 60px;
-    background-color: black;
-    z-index: 800;
-    height: calc(100vh - 60px);
-    width: 90%;
+.bars {
+    button {
+        padding: 10px;
+    }
+
+    .sideMenu {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: black;
+        z-index: 800;
+        height: calc(100vh - 60px);
+        width: 90%;
+    }
 }
 
 @media (min-width: 700px) {

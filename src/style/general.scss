@@ -11,3 +11,12 @@ a {
 li {
     list-style-type: none;
 }
+#app {
+    background-color: rgb(41, 41, 41);
+    // background-color: black;
+    height: 100vh;
+    overflow-y: auto;
+}
+.container {
+    padding: 10px 30px;
+}

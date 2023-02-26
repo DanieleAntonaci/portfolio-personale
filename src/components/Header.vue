@@ -23,7 +23,7 @@ export default {
 
                 },
                 {
-                    title: 'MENU',
+                    title: 'CONTACT ME',
                     link: '#'
 
                 },
@@ -54,7 +54,7 @@ export default {
 .container {
     border-bottom: .5px solid rgb(106, 106, 106);
     background-color: rgb(41, 41, 41);
-    padding: 10px;
+
     height: 60px;
 
     position: sticky;
@@ -75,7 +75,7 @@ export default {
             display: flex;
 
             li {
-                margin-left: 10px;
+                margin-left: 40px;
             }
         }
 

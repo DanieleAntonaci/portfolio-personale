@@ -27,12 +27,8 @@ export default {
 @use './style/partials/variables' as *;
 
 #container {
-  background-color: rgb(41, 41, 41);
-  height: 100vh;
-  overflow-y: auto;
+  max-width: 1700px;
+  margin: 0 auto;
   color: white;
-
-
-
 }
 </style>
