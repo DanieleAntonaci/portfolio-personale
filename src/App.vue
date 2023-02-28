@@ -35,9 +35,5 @@ export default {
   margin: 0 auto;
   color: white;
 
-  &>div {
-    height: calc(100vh - 60px);
-    overflow: auto;
-  }
 }
 </style>

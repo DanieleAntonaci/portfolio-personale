@@ -59,7 +59,7 @@ export default {
 
 
 .container {
-    // background-color: black;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.9) 60%, rgb(190, 0, 32, .9));
     height: 60px;
 
     position: sticky;

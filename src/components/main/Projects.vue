@@ -12,7 +12,8 @@ export default {
             <div  class="card">
                 <a href="">
 
-                    <img src="images/spotify-2.png" alt="">
+                        <img src="images/spotify-2.png" alt="">
+
                     <div class="title-link">
                         <h2>Spotify</h2>
                         <div class="card-link">
@@ -26,8 +27,8 @@ export default {
             </div>
             <div  class="card">
                 <a href="">
+                        <img src="images/spotify-2.png" alt="">
 
-                    <img src="images/spotify-2.png" alt="">
                     <div class="title-link">
                         <h2>Spotify</h2>
                         <div class="card-link">
@@ -41,8 +42,8 @@ export default {
             </div>
             <div  class="card">
                 <a href="">
+                        <img src="images/spotify-2.png" alt="">
 
-                    <img src="images/spotify-2.png" alt="">
                     <div class="title-link">
                         <h2>Spotify</h2>
                         <div class="card-link">
@@ -82,7 +83,7 @@ section {
             max-width: 100%;
             background-color: rgb(41, 41, 41);
             box-shadow: inset 0 0 12px 12px rgb(37, 37, 37);
-            border-radius: 1.3rem;
+            // border-radius: 1.3rem;
             margin-bottom: 4rem;
 
 
@@ -90,15 +91,15 @@ section {
             img {
                 width: calc(100% - 2.4rem);
                 margin: 1.2rem;
-                border-radius: 1.2rem;
-                box-shadow: 0 0 10px .2px rgb(97, 97, 97);
+                // border-radius: 1.2rem;
+                // box-shadow: 0 0 10px .2px rgb(97, 97, 97);
             }
 
             .title-link {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                padding: 1.4rem 2rem;
+                padding: 0 2rem 1.4rem;
 
                 h2 {
                     color: rgb(190, 0, 32);
