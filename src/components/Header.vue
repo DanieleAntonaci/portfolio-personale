@@ -13,13 +13,13 @@ export default {
 
                 },
                 {
-                    title: 'ABOUT ME',
-                    link: '#'
+                    title: 'MY PROYECT',
+                    link: '#my-project'
 
                 },
                 {
-                    title: 'MY PROYECT',
-                    link: '#'
+                    title: 'SKILLS',
+                    link: '#skills'
 
                 },
                 {
@@ -59,7 +59,7 @@ export default {
 
 
 .container {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.9) 60%, rgb(190, 0, 32, .9));
+    background: linear-gradient(310deg, rgba(0, 0, 0, 0.9) 60%, rgb(190, 0, 32, .9));
     height: 60px;
 
     position: sticky;

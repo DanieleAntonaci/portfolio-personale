@@ -5,8 +5,8 @@ export default {
 </script>
 
 <template>
-    <section>
-        <h1>My projects</h1>
+    <section id="my-project">
+        <h2>My projects</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, mollitia</p>
         <div class="cards">
             <div  class="card">

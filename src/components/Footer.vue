@@ -7,7 +7,7 @@ export default {
 <template>
     <footer class="container">
         <h1>
-            Footer
+            Contact
         </h1>
     </footer>
 </template>

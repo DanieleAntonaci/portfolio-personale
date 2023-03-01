@@ -18,7 +18,7 @@ export default {
             <h3>Hello i'm Daniele</h3>
             <h1>Full Stack Web Developer</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deleniti consequatur inventore amet vitae iure esse aliquam sint. Saepe repellendus, molestiae reiciendis natus repudiandae sequi voluptates suscipit officiis dolor facere.</p>
-            <a class="btn-about-me" href="#">Aboout me</a>
+            <a class="btn-contact-me" href="#">CONTACT ME</a>
         </div>
     </section>
 </template>
@@ -69,7 +69,7 @@ export default {
             line-height: 30px;
         }
 
-        .btn-about-me {
+        .btn-contact-me {
             padding: 10px 15px;
             background-color: rgb(190, 0, 32);
             margin: 20px 0;
@@ -119,7 +119,7 @@ export default {
                 line-height: 30px;
             }
 
-            .btn-about-me {
+            .btn-contact-me {
                 padding: 10px 15px;
                 background-color: rgb(190, 0, 32);
                 margin: 20px 0;
